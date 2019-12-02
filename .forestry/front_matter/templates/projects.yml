@@ -1,0 +1,38 @@
+---
+label: Projects
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+  description: Title of post
+- name: pubdate
+  type: datetime
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  label: pubdate
+- name: author
+  type: text
+  config:
+    required: false
+  label: author
+- name: authorURL
+  type: text
+  config:
+    required: false
+  label: authorURL
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: featured
+  type: file
+  config:
+    maxSize: 250
+  label: featured
