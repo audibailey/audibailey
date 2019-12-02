@@ -5,17 +5,21 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/projects
+  path: content/project
   label: Projects
   create: all
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - projects
 - type: directory
   path: content/blog
   label: Blogs
   create: documents
   match: "**/*"
   new_doc_ext: md
+  templates:
+  - blogs
 upload_dir: static
 public_path: ''
 front_matter_path: ''
