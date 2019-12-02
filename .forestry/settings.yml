@@ -9,15 +9,15 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: content/blog
   label: Blogs
   create: documents
   match: "**/*"
   new_doc_ext: md
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: static
+public_path: ''
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
