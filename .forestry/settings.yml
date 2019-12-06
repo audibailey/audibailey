@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: content/settings.json
+  path: content/settings.js
   label: Site Details
   match: "**/*"
 - type: directory
