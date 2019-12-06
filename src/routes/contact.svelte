@@ -6,7 +6,7 @@
 </svelte:head>
 
 <div class="mui-panel">
-    <form class="mui-form" method="POST" data-netlify="true">
+    <form class="mui-form" method="POST" data-netlify="true" name="contact">
         <legend>Contact Me</legend>
         <div class="mui-textfield mui-textfield--float-label">
             <input type="text"/>
