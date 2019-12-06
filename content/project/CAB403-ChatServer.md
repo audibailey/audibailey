@@ -11,7 +11,7 @@ tags:
     - "Client"
     - "CAB403"
     - "University Project"
-featured: project/placeholder.png
+featured: project/chatserver.png
 ---
 
 # Overview
