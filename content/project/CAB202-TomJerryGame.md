@@ -9,7 +9,7 @@ tags:
     - "Console App"
     - "CAB202"
     - "University Project"
-featured: project/placeholder.png
+featured: project/tomjerrygame.png
 ---
 
 # Overview
