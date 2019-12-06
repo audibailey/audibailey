@@ -11,7 +11,7 @@ tags:
     - "Object Orientated Programming"
     - "CAB201"
     - "University Project"
-featured: project/placeholder.png
+featured: project/flyingpostman.png
 ---
 
 # Overview
