@@ -10,7 +10,7 @@ tags:
     - "Microcontroller"
     - "CAB202"
     - "University Project"
-featured: project/placeholder.png
+featured: project/tomjerryteensy.png
 ---
 
 # Overview
