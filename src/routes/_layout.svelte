@@ -1,6 +1,7 @@
 <script>
  import Nav from '../components/Nav.svelte';
  import { fadeIn, fadeOut } from "../components/pageFade.js";
+ import config from '../../content/settings.js'
  export let segment;
 
  function handleTop() {
@@ -180,21 +181,21 @@
             <br>
             <div class="mui-col-md-10 mui-col-xs-10 mui-col-md-offset-1">
                 <div class="mui--text-dark-secondary mui--text-title bio-text">
-                    Hi! I'm Audi Bailey
+                    {config.title}
                 </div>
                 <div class="mui--text-dark-secondary mui--text-subhead bio-text">
-                    Electrical Engineering and Computer Science Student
+                    {config.subtitle}
                 </div>
                 <hr  class="hide-mobile">
                 <div class="mui-row">
                     <div class="mui-col-md-4 mui-col-xs-4">
-                        <a href="https://www.github.com/audibailey"><img src="../github.png" alt="Github Logo" width="50px" height="50px"></a>
+                        <a href="{config.github}"><img src="../github.png" alt="Github Logo" width="50px" height="50px"></a>
                     </div>
                     <div class="mui-col-md-4 mui-col-xs-4">
-                        <a href="https://www.linkedin.com/in/audi-bailey/"><img src="../linkedin.png" alt="LinkedIn Logo" width="50px" height="50px"></a>
+                        <a href="{config.linkedin}"><img src="../linkedin.png" alt="LinkedIn Logo" width="50px" height="50px"></a>
                     </div>
                     <div class="mui-col-md-4 mui-col-xs-4">
-                        <a href="/"><img src="../logo-512.png" alt="Twitter Logo" width="50px" height="50px"></a>
+                        <a href="{config.twitter}"><img src="../twitter.jpeg" alt="Twitter Logo" width="50px" height="50px"></a>
                     </div>
                 </div>
                 <hr class="hide-mobile">
@@ -204,7 +205,7 @@
             </div>
             <div class="mui-col-md-10 mui-col-xs-10 mui-col-md-offset-1" style="position: absolute; bottom: 0; margin-bottom: 10%;">
                 <div class="hide-mobile side-footer mui--text-dark-secondary mui--text-subhead bio-text">
-                    Made with ❤️ by Audi Bailey
+                    {config.footer}
                 </div>
             </div>
         </div>
